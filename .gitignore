@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+flashcache_env/
+.venv/
+
+# PyTorch / Hugging Face model caches and weights
+*.bin
+*.pt
+*.pth
+*.safetensors
+.cache/
+huggingface/
+checkpoints/
+
+# Streamlit local config & cache
+.streamlit/
+*/.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs & profiling dumps
+*.log
+*.tfevents*
+
+# Environment secrets and credentials (never commit)
+.env
+.env.local
+*.pem
+*.key
+*.token
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini

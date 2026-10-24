@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flashcache-kv"
+version = "0.1.0"
+description = "Dynamic KV-Cache Compaction via Adaptive Token Eviction and Experimental Similarity-Based Merging"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["llm", "kv-cache", "streaming-llm", "transformers", "pytorch", "compression"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "torch>=2.2.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.28.0",
+    "numpy>=1.25.0",
+    "pandas>=2.0.0",
+    "plotly>=5.18.0",
+    "streamlit>=1.32.0",
+    "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]

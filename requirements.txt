@@ -1,0 +1,17 @@
+# Core Deep Learning Framework
+# Note: For CUDA 12.8 / 13.x acceleration on Windows/Linux, install torch via the PyTorch index:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+torch>=2.2.0
+transformers>=4.40.0
+accelerate>=0.28.0
+
+# Numerical, Visualization & Dashboard
+numpy>=1.25.0
+pandas>=2.0.0
+plotly>=5.18.0
+streamlit>=1.32.0
+
+# Utilities
+tqdm>=4.66.0
+packaging>=23.0
+psutil>=5.9.0
